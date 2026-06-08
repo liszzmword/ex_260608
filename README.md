@@ -1,7 +1,7 @@
 # 로또 추첨기 (Lotto Number Generator)
 
 웹 브라우저에서 바로 동작하는 한국 로또(6/45) 번호 추첨기입니다. 별도 설치 없이
-[lotto.html](lotto.html) 파일을 열면 사용할 수 있습니다.
+[index.html](index.html) 파일을 열면 사용할 수 있습니다.
 
 ## 기능
 - 1 ~ 45 중 중복 없이 6개 번호 추첨 (오름차순 정렬)
@@ -27,5 +27,12 @@ UI는 Figma 템플릿 *"Real Estate Business Website UI Template — Dark Theme"
 
 ## 사용법
 ```
-lotto.html 파일을 더블클릭 → 브라우저에서 열림 → "번호 뽑기" 클릭
+index.html 파일을 더블클릭 → 브라우저에서 열림 → "번호 뽑기" 클릭
 ```
+
+## 배포 (Vercel)
+정적 사이트이므로 별도 빌드 설정이 필요 없습니다.
+1. [vercel.com](https://vercel.com) → **Add New → Project**
+2. 이 GitHub 저장소(`ex_260608`) 임포트
+3. Framework Preset: **Other** (자동 감지), 빌드 명령 없음
+4. **Deploy** → 루트 주소에서 `index.html` 자동 서빙
