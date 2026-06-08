@@ -1,0 +1,8 @@
+# Figma source file — 340MB, exceeds GitHub's 100MB limit (use Git LFS if needed)
+*.fig
+
+# Local working artifacts from design-system extraction
+_extracted/
+
+# Claude Code local settings
+.claude/
